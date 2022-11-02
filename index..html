@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/estilos.css">
+    <title>Formulario validado</title>
+</head>
+<body>
+    <div class="caja__texto">
+        <h1 class="texto">Formulario Validado</h1>
+    </div>
+    <div class="contenedor">
+        <form class="formulario1" action="" id="form">
+
+            <div class="input__form1">
+                <input class="input__form2" type="texto" placeholder="Nombre y Apellido" id="nombre">
+            </div>
+        
+            <div class="caja__fecha">
+                <div>
+                    <label class="fecha" for="">Fecha</label>
+                </div>                 
+                 <input class="input__fecha" type="date" id="fecha">
+            </div>
+        
+            <div class="caja__boton">
+             <button class="boton__submit" type="submit" id="enviar">Reservar Turno</button>
+            </div>
+
+        </form>
+
+        <!--contenido dinamico-->
+        <div class="tabla" id="table">
+           <div class="cajaTexto">
+              <h2 class="textoFecha">Fecha del turno</h2>
+           </div>
+           <!-- Cambio de nombre de clase tabla por id tabla-turnos -->
+            <table class="tabla1" id="tabla-turnos"> 
+                         <thead class="thead">
+                           <tr>
+                             <th class="items" scope="col">Nombre y Apellido</th>
+                             <th class="items" scope="col">Fecha</th>
+                           </tr>
+                         </thead>
+            </table>
+
+           
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.caja__texto {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja__texto .texto {
+  font-family: "Times New Roman", Times, serif;
+  color: #373737;
+  margin: 1rem;
+  font-style: italic;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+.contenedor .formulario1 {
+  width: 35%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: rgba(255, 228, 196, 0.55);
+}
+.contenedor .input__form1 {
+  font-size: 2rem;
+  padding: 1em;
+  width: 100%;
+}
+.contenedor .input__form1 .input__form2 {
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: rgba(208, 24, 24, 0.988);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+}
+.contenedor .caja__fecha {
+  padding: 2rem;
+  text-align: center;
+}
+.contenedor .caja__fecha .fecha {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #373737;
+}
+.contenedor .caja__fecha .input__fecha {
+  border: 1px solid black;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: rgba(208, 24, 24, 0.988);
+  color: rgba(255, 255, 255, 0.575);
+}
+.contenedor .caja__boton {
+  text-align: center;
+  padding: 1.5rem;
+}
+.contenedor .caja__boton .boton__submit {
+  font-size: 1rem;
+  background-color: rgba(20, 20, 133, 0.272);
+  color: #373737;
+  border-radius: 5px;
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.495);
+  margin: 2rem;
+}
+.tabla .tabla1 {
+  margin: 9rem;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+}
+.tabla .tabla1 .thead {
+  border: 1px solid rgba(0, 0, 0, 0.495);
+  margin-top: 0%;
+}
+.tabla .tabla1 .thead .items {
+  border: 1px solid rgba(0, 0, 0, 0.495);
+  width: 50%;
+  height: 100%;
+  font-style: italic;
+}
+.tabla .cajaTexto {
+  border: 1px solid rgba(0, 0, 0, 0.445);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.tabla .cajaTexto .textoFecha {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=estilos.css.map */

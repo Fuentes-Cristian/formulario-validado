@@ -18,6 +18,15 @@
   font-style: italic;
 }
 
+.tabla2 {
+  width: 35%;
+  border: 1px solid black;
+}
+.tabla2 .thead2 {
+  border: 1px solid black;
+  width: 100%;
+}
+
 .contenedor {
   display: flex;
   justify-content: center;

@@ -15,7 +15,7 @@ reservarTurno.addEventListener("click", (e) =>{
    e.preventDefault();
    let nombreGuardar = document.getElementById("nombre").value;
    let fechaGuardar = document.getElementById("fecha").value;
-   let nuevaSeleccion = document.getElementById("productos").value;
+    nuevaSeleccion = datosProductos.value;
    
    nuevoTurno = new Turno(nombreGuardar, fechaGuardar, nuevaSeleccion);
 
@@ -39,7 +39,7 @@ function guardarDatos() {
 
 };
 
-const JSON = {
+const JSON1 = {
    Corte:"$1.000",
    Tintura:"$2.500",
    Alisado:"$3.000",
@@ -48,12 +48,12 @@ const JSON = {
 
 //console.log(JSON);
 function fetch1() {
-   fetch('https://jsonplaceholder.typicode.com/users')
+   fetch('https://jsonplaceholder.typicode.com/posts')
   .then(response => response.json())
   .then(datos =>{
-   datos = JSON;
+   datos = JSON1;
    const seleccionaModo = document.createElement("productos");
-   JSON.innerHTML = seleccionaModo;
+   JSON1.innerHTML = seleccionaModo;
    seleccionaModo.innerHTML = `
    <div class="input-group mb-3">
           <label class="input-group-text" for="inputGroupSelect01">Selecciona</label>

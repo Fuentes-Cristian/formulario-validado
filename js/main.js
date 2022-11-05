@@ -15,8 +15,8 @@ reservarTurno.addEventListener("click", (e) =>{
    e.preventDefault();
    let nombreGuardar = document.getElementById("nombre").value;
    let fechaGuardar = document.getElementById("fecha").value;
-    nuevaSeleccion = datosProductos.value;
-   
+   let nuevaSeleccion =  document.getElementById("modos").value;
+     
    nuevoTurno = new Turno(nombreGuardar, fechaGuardar, nuevaSeleccion);
 
    guardarDatos();
@@ -57,12 +57,12 @@ function fetch1() {
    seleccionaModo.innerHTML = `
    <div class="input-group mb-3">
           <label class="input-group-text" for="inputGroupSelect01">Selecciona</label>
-       <select class="form-select" id="inputGroupSelect01">
+       <select class="form-select" id="modos">
                <option selected>Ninguna</option>
                <option selected>Corte</option>
-               <option value="1">Tintura</option>
-               <option value="2">Peinado</option>
-               <option value="3">Alisado</option>
+               <option selected>Tintura</option>
+               <option selected>Peinado</option>
+               <option selected>Alisado</option>
        </select>
    </div> `
 

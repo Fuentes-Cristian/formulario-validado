@@ -1,6 +1,8 @@
-{
-    "'Corte":"$1.000",
-    "Tintura":"$2.500",
-    "Alisado":"$3.000",
-    "Peinado":"$3.500"
-}
+[   
+    {"servicios":"Ninguna", "precio":1000},
+    {"servicios":"Corte", "precio":1000},
+    {"servicios":"Tintura", "precio":1000},
+    {"servicios":"Alisado", "precio":1000},
+    {"servicios":"Peinado", "precio":1000}
+    
+]
